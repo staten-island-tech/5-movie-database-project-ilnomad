@@ -4,7 +4,7 @@ data = json.load(movies)
 
 def title():
     for h in data:
-        print(data{"title"})
+        print(data[h][title])
 def yeargiven():
     print("a")
     x=input("What year ")
