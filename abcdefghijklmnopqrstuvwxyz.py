@@ -31,12 +31,21 @@ def yeargiven():
             print(movielist[z]["title"])
         z+=1
 def specificmovie():
-    a=1
+    x=input("Movie search ")
+    z=0
+    for h in movielist:
+        if movielist[z]["title"]==x:
+            print(movielist[z]["title"])
+        z+=1
 def genresearch():
     genres=input("genres ")
     z=0
+    i=0
     for h in movielist:
-        if genres==movielist[z]["genres"]:
-            print(movielist[z]["genres"])
+        for h in movielist[z]["genres"]:
+            if genres==movielist[z]["genres"][i]:
+                print(movielist[z]["title"])
+            i+=1
+        i=0
         z+=1
-genresearch()
+specificmovie()
