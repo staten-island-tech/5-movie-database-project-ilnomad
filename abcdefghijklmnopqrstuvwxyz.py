@@ -48,4 +48,5 @@ def genresearch():
             i+=1
         i=0
         z+=1
-specificmovie()
+
+genresearch()
