@@ -65,4 +65,4 @@ def genresearch():
     if a==0:
         print("nothin")
 
-genresearch()
+text
